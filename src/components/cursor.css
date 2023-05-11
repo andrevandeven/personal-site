@@ -1,0 +1,31 @@
+.secondary-cursor {
+    z-index: 999;
+    /* border-radius: 50%; */
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    /* pointer-events: none; */
+    /* overflow: hidden; */
+    /* background-size: contain; */
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+    /* background-image: url('shark.png');
+    background-repeat: no-repeat; */
+
+}
+
+.shark {
+    width: 10vmax;
+}
+
+/* .main-cursor {
+    z-index: 1001;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    position: fixed;
+} */

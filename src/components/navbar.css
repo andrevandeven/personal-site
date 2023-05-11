@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
+
+.navbar {
+    font-family: 'Jaldi', sans-serif;
+    font-size: x-large;
+    background-color: #046997;
+    z-index: 1000;
+    position: fixed;
+    width: 100vw;
+    font-weight: bold;
+}
+
+.title {
+    margin-left: 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: 0.1s;
+}
+
+.title:hover {
+    text-shadow: 0 0 5px #ffe6c2;
+    color: #003b61;
+}

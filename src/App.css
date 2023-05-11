@@ -1,38 +1,394 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
+
+* {
+  /* border: 1px solid red; */
+  /* cursor: none; */
+}
+
+html {
+  height: 100%;
+}
+
+.bubble-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 10vmin;
+  z-index: 1;
+}
+
+.bubbles {
+  position: relative;
+  display: flex;
+}
+
+.bubble {
+  position: relative;
+  width: 2vw;
+  height: 2vw;
+  background: transparent;
+  margin-left: -0.65vw;
+  border: red;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.buffer {
+  width: 40vw;
+  height: 2vw;
+}
+
+.bubble1 {
+  animation: animate 25s linear infinite;
+}
+
+.bubble2 {
+  animation: animate 5.5s linear infinite;
+}
+
+.bubble3 {
+  animation: animate 23s linear infinite;
+}
+
+.bubble4 {
+  animation: animate 3s linear infinite;
+}
+
+.bubble5 {
+  animation: animate 19s linear infinite;
+}
+
+.bubble6 {
+  animation: animate 7s linear infinite;
+}
+
+.bubble7 {
+  animation: animate 15s linear infinite;
+}
+
+.bubble8 {
+  animation: animate 6s linear infinite;
+}
+
+.bubble9 {
+  animation: animate 18s linear infinite;
+}
+
+.bubble10 {
+  animation: animate 4s linear infinite;
+}
+
+.bubble11 {
+  animation: animate 20s linear infinite;
+}
+
+.bubble12 {
+  animation: animate 6.5s linear infinite;
+}
+
+.bubble13 {
+  animation: animate 15s linear infinite;
+}
+
+.bubble14 {
+  animation: animate 9s linear infinite;
+}
+
+.bubble15 {
+  animation: animate 18s linear infinite;
+}
+
+.bubble16 {
+  animation: animate 5s linear infinite;
+}
+
+.bubble17 {
+  animation: animate 17s linear infinite;
+}
+
+.bubble18 {
+  animation: animate 7.5s linear infinite;
+}
+
+.bubble19 {
+  animation: animate 22.5s linear infinite;
+}
+
+.bubble20 {
+  animation: animate 10s linear infinite;
+}
+
+.bubble21 {
+  animation: animate 5s linear infinite;
+}
+
+.bubble22 {
+  animation: animate 3.5s linear infinite;
+}
+
+.bubble23 {
+  animation: animate 15.5s linear infinite;
+}
+
+.bubble24 {
+  animation: animate 4.5s linear infinite;
+}
+
+.bubble25 {
+  animation: animate 15.9s linear infinite;
+}
+
+.bubble26 {
+  animation: animate 22.3s linear infinite;
+}
+
+.bubble27 {
+  animation: animate 5.6s linear infinite;
+}
+
+.bubble28 {
+  animation: animate 27.4s linear infinite;
+}
+
+.bubble29 {
+  animation: animate 10.1s linear infinite;
+}
+
+.bubble30 {
+  animation: animate 3.2s linear infinite;
+}
+
+.bubble31 {
+  animation: animate 18.7s linear infinite;
+}
+
+.bubble32 {
+  animation: animate 9.3s linear infinite;
+}
+
+.bubble33 {
+  animation: animate 17.9s linear infinite;
+}
+
+.bubble34 {
+  animation: animate 8.2s linear infinite;
+}
+
+.bubble35 {
+  animation: animate 25.7s linear infinite;
+}
+
+.bubble36 {
+  animation: animate 4.3s linear infinite;
+}
+
+.bubble37 {
+  animation: animate 29.8s linear infinite;
+}
+
+.bubble38 {
+  animation: animate 10.4s linear infinite;
+}
+
+.bubble39 {
+  animation: animate 16.4s linear infinite;
+}
+
+.bubble40 {
+  animation: animate 5.7s linear infinite;
+}
+
+.bubble41 {
+  animation: animate 21.2s linear infinite;
+}
+
+.bubble42 {
+  animation: animate 11.5s linear infinite;
+}
+
+.bubble43 {
+  animation: animate 22.9s linear infinite;
+}
+
+.bubble44 {
+  animation: animate 5.7s linear infinite;
+}
+
+.bubble45 {
+  animation: animate 3.9s linear infinite;
+}
+
+.bubble46 {
+  animation: animate 15.8s linear infinite;
+}
+
+
+
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh) scale(1);
+  }
+
+  100% {
+    transform: translateY(-10vh) scale(2);
+  }
+}
+
+h1 {
+  color: #e3f0f2;
+  text-align: center;
+  font-family: 'Jaldi', sans-serif;
+  animation: fadeIn 3s, fromTop 3s;
+  width: 75%;
+  margin-bottom: 0;
+}
+
+.subheadingTotal {
+  color: #e3f0f2;
+  margin-top: 0;
+  font-family: 'Jaldi', sans-serif;
+  width: 35%;
+  font-size: 3vmin;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.developer {
+  display: inline-block;
+  animation: fromLeft 3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.UWphotographer {
+  display: inline-block;
+  animation: fromTop 3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.interface-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+
+@keyframes fromTop {
+  0% {
+    transform: translateY(-1000%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-1000%);
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    transform: translateX(0%);
   }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(-1000%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(135deg, #30b1ce, #29a4c3, #318db2, #046997, #003b61);
+}
+
+.projects-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #040039;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  transition: ease-out 0.3s;
+  border-radius: 10px;
+  animation: fadeIn 5s;
+}
+
+.projects-link:hover {
+  box-shadow: inset 150px 0 0 0 #ffe6c2, 10px 10px 10px 1px #003b61;
+  color: #003b61;
+}
+
+.about-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #040039;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  transition: ease-out 0.3s;
+  border-radius: 10px;
+  animation: fadeIn 5s;
+}
+
+.about-link:hover {
+  box-shadow: inset 150px 0 0 0 #ffe6c2, 10px 10px 10px 1px #003b61;
+  color: #003b61;
+}
+
+.pictures-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #040039;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  transition: ease-out 0.3s;
+  border-radius: 10px;
+  animation: fadeIn 5s;
+}
+
+.pictures-link:hover {
+  box-shadow: inset 150px 0 0 0 #ffe6c2, 10px 10px 10px 1px #003b61;
+  color: #003b61;
+}
+
+nav {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 10vh;
+}
+
+a {
+  color: #e3f0f2;
+  text-decoration: none;
 }
