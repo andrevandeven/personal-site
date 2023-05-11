@@ -5,7 +5,8 @@ import "./navbar.css"
 export const NavBar = () => {
     return (
         <div className="navbar">
-            <Link className="title" to="/">Andre van de Ven</Link>
+            <Link className="seahorse-link" to="/"> <img src="seahorse.png" className="seahorse" /> </Link>
+            <Link className="navbar-title" to="/">[Andre van de Ven]</Link>
         </div>
     );
 };

@@ -8,16 +8,26 @@
     position: fixed;
     width: 100vw;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
-.title {
-    margin-left: 5vw;
+.navbar-title {
     margin-top: 0;
     margin-bottom: 0;
     transition: 0.1s;
 }
 
-.title:hover {
+.navbar-title:hover {
     text-shadow: 0 0 5px #ffe6c2;
     color: #003b61;
+}
+
+.seahorse-link {
+    display: flex;
+    align-items: center;
+}
+
+.seahorse {
+    width: 3vmax;
 }

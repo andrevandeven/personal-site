@@ -59,13 +59,13 @@ export default function App() {
       <div className='interface-container'>
         <h1>Andre van de Ven</h1>
         <span className="subheadingTotal">
-          <span className="subheading">I am a&nbsp;</span>
-          <span className="developer subheading">developer</span>
-          <span className="subheading">&nbsp;and&nbsp;</span>
-          <span className="UWphtographer subheading">underwater photographer&nbsp;</span>
-          <span className="subheading">studying </span>
-          <span className="neuroscience subheading">&nbsp;computational biology</span>
-          <span className="subheading">&nbsp;at the University of Pennsylvania.</span>
+          <span>I am a&nbsp;</span>
+          <span className="developer ">developer</span>
+          <span>&nbsp;and&nbsp;</span>
+          <span className="UWphotographer">underwater photographer</span>
+          <span>&nbsp;studying </span>
+          <span className="compBio">&nbsp;computational biology</span>
+          <span>&nbsp;at the University of Pennsylvania.</span>
         </span>
 
         <nav>
@@ -74,11 +74,11 @@ export default function App() {
               <p>Projects</p>
             </div>
           </Link>
-          <a href="https://www.andrevandeven.us/">
+          <Link to="/pictures">
             <div className='pictures-link'>
               <p>Pictures</p>
             </div>
-          </a>
+          </Link>
           <Link to="/about">
             <div className='about-link'>
               <p>About</p>

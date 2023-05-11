@@ -251,7 +251,7 @@ h1 {
   color: #e3f0f2;
   margin-top: 0;
   font-family: 'Jaldi', sans-serif;
-  width: 35%;
+  width: 40%;
   font-size: 3vmin;
   text-align: center;
 }
@@ -259,11 +259,19 @@ h1 {
 .developer {
   display: inline-block;
   animation: fromLeft 3s;
+  font-weight: bold;
 }
 
 .UWphotographer {
   display: inline-block;
-  animation: fromTop 3s;
+  animation: fromRight 3s;
+  font-weight: bold;
+}
+
+.compBio {
+  display: inline-block;
+  animation: fromBottom 3s;
+  font-weight: bold;
 }
 
 
@@ -285,6 +293,16 @@ h1 {
   }
 }
 
+@keyframes fromBottom {
+  0% {
+    transform: translateY(1000%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
 @keyframes fromLeft {
   0% {
     transform: translateX(-1000%);
@@ -297,7 +315,7 @@ h1 {
 
 @keyframes fromRight {
   0% {
-    transform: translateX(-1000%);
+    transform: translateX(1000%);
   }
 
   100% {

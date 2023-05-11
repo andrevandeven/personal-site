@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
 import About from "./routes/about"; // import About
 import Projects from "./routes/projects"; // import Projects
+import Pictures from "./routes/pictures";
 import { CustomCursor } from './components/cursor';
 
 
@@ -19,6 +20,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="projects" element={<Projects />} />
       <Route path="about" element={<About />} />
+      <Route path="pictures" element={<Pictures />} />
       <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>
