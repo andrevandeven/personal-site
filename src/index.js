@@ -5,9 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
-import About from "./routes/about"; // import About
-import Projects from "./routes/projects"; // import Projects
+import About from "./routes/about";
 import Pictures from "./routes/pictures";
+import Turtles from "./routes/gallery-sections/turtles";
+import FishPortraits from "./routes/gallery-sections/portraits";
+import Macro from "./routes/gallery-sections/macro.jsx";
+import Sharks from "./routes/gallery-sections/sharks.jsx";
+import Camo from "./routes/gallery-sections/camo.jsx";
 import { CustomCursor } from './components/cursor';
 
 
@@ -18,9 +22,13 @@ root.render(
     <NavBar />
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="projects" element={<Projects />} />
       <Route path="about" element={<About />} />
       <Route path="pictures" element={<Pictures />} />
+      <Route path="pictures/turtles" element={<Turtles />} />
+      <Route path="pictures/fish-portraits" element={<FishPortraits />} />
+      <Route path="pictures/macro" element={<Macro />} />
+      <Route path="pictures/sharks&rays" element={<Sharks />} />
+      <Route path="pictures/masters-of-camouflage" element={<Camo />} />
       <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>

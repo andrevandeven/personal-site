@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.title {
+    color: #e3f0f2;
+    text-align: center;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.separator {
+    height: 2px;
+    /* or the thickness you want */
+    background-color: #ccc;
+    /* color of the line */
+    width: 60vw;
+    /* or a fixed width */
+    margin: 20px 0;
+    /* spacing around the line */
+    border-radius: 2px;
+}
+
+.title-lines {
+    height: 2px;
+    /* or the thickness you want */
+    background-color: #ccc;
+    /* color of the line */
+    width: 40vw;
+    /* or a fixed width */
+    margin: 0;
+    /* spacing around the line */
+    border-radius: 2px;
+}
+
+.title-container {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.carousel-subheading {
+    margin-bottom: 1vh;
+}
+
+.carousel-img-container img {
+    border-radius: 20px;
+}
+
+p {
+    color: #e3f0f2;
+    text-align: center;
+    font-family: 'Jaldi', sans-serif;
+    font-size: px;
+    margin-bottom: 0;
+}
+
+@media screen and (orientation:portrait) {
+    .carousel-container {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .individual-img {
+        width: 75%;
+        border-radius: 20px;
+    }
+
+        .individual-description {
+            width: 75%
+        }
+}
+
+@media screen and (orientation:landscape) {
+    .carousel-container {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .individual-img {
+        width: 40%;
+        border-radius: 20px;
+    }
+
+    .individual-description {
+        width: 40%
+    }
+}
+

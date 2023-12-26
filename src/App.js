@@ -57,23 +57,25 @@ export default function App() {
         </div>
       </div>
       <div className='interface-container'>
-        <h1>Andre van de Ven</h1>
+        <h1 className='homepage-title'>Andre van de Ven</h1>
         <span className="subheadingTotal">
           <span>I am a&nbsp;</span>
           <span className="developer ">developer</span>
           <span>&nbsp;and&nbsp;</span>
           <span className="UWphotographer">underwater photographer</span>
           <span>&nbsp;studying </span>
-          <span className="compBio">&nbsp;computational biology</span>
+          <span className="compBio">biology</span>
+          <span>&nbsp;and</span>
+          <span className="compBio">&nbsp;computer science</span>
           <span>&nbsp;at the University of Pennsylvania.</span>
         </span>
 
-        <nav>
-          <Link to="/projects">
+        <nav className="navigation-bar">
+          <a href="https://github.com/andrevandeven" target="_blank" rel="noopener noreferrer">
             <div className='projects-link'>
               <p>Projects</p>
             </div>
-          </Link>
+          </a>
           <Link to="/pictures">
             <div className='pictures-link'>
               <p>Pictures</p>

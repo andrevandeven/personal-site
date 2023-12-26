@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
 
-* {
-  /* border: 1px solid red; */
-  /* cursor: none; */
-}
-
 html {
   height: 100%;
 }
@@ -238,7 +233,7 @@ html {
   }
 }
 
-h1 {
+.homepage-title{
   color: #e3f0f2;
   text-align: center;
   font-family: 'Jaldi', sans-serif;
@@ -250,6 +245,7 @@ h1 {
 .subheadingTotal {
   color: #e3f0f2;
   margin-top: 0;
+  margin-bottom: 10px;
   font-family: 'Jaldi', sans-serif;
   width: 40%;
   font-size: 3vmin;
@@ -339,7 +335,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(135deg, #30b1ce, #29a4c3, #318db2, #046997, #003b61);
+  background-image: linear-gradient(135deg,#033563, #001F54, #0A1128);
 }
 
 .projects-link {
@@ -349,7 +345,7 @@ body {
   height: 150px;
   width: 150px;
   background-color: #040039;
-  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #046997;
   transition: ease-out 0.3s;
   border-radius: 10px;
   animation: fadeIn 5s;
@@ -367,7 +363,7 @@ body {
   height: 150px;
   width: 150px;
   background-color: #040039;
-  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #046997;
   transition: ease-out 0.3s;
   border-radius: 10px;
   animation: fadeIn 5s;
@@ -385,7 +381,7 @@ body {
   height: 150px;
   width: 150px;
   background-color: #040039;
-  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #003b61;
+  box-shadow: inset 0 0 0 0 #ffe6c2, 5px 5px 10px 1px #046997;
   transition: ease-out 0.3s;
   border-radius: 10px;
   animation: fadeIn 5s;
@@ -396,7 +392,7 @@ body {
   color: #003b61;
 }
 
-nav {
+.navigation-bar {
   width: 75%;
   display: flex;
   justify-content: center;
