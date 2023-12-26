@@ -97,6 +97,7 @@ const FishPortraits = () => {
             <p>Chain moray</p>
             <p>Chestnut moray</p>
             <p>parrotfish</p>
+            <p>trumpetfish</p>
         </div>
     );
 }
