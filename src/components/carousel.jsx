@@ -15,7 +15,7 @@ const ImageCarousel = ({ title, images, description }) => {
                 >
                     {images.map((image, index) => (
                         <div key={index} className="carousel-img-container">
-                            <img src={image} alt={`Slide ${index}`} />
+                            <img src={`${process.env.PUBLIC_URL}${image}`} alt={`Slide ${index}`} />
                         </div>
                     ))}
                 </Carousel>

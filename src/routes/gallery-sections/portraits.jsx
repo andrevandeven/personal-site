@@ -117,7 +117,7 @@ const FishPortraits = () => {
 
             <div class="separator"></div>
             <h2 className="carousel-subheading">Chain Moray Eel</h2>
-            <img className="individual-img" src="/chain-1.jpg" alt="chain"></img>
+            <img className="individual-img" src={`${process.env.PUBLIC_URL}/chain-1.jpg`} alt="chain"></img>
             <p className="individual-description"> </p>
 
             <div class="separator"></div>

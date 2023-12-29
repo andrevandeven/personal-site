@@ -109,7 +109,7 @@ export const CustomCursor = () => {
         <div>
             <div className="main-cursor" ref={mainCursor}></div>
             <div className="secondary-cursor" ref={secondaryCursor}>
-                <img src="/shark.png" alt="shark" className="shark" ref={shark} />
+                <img src={`${process.env.PUBLIC_URL}/shark.png`} alt="shark" className="shark" ref={shark} />
             </div>
         </div>
     );

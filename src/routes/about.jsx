@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className = "container">
             <h1 className="title" >About Me</h1>
-            <img className = "portrait" src="/portrait.jpeg"></img>
+            <img className="portrait" src={`${process.env.PUBLIC_URL}/portrait.jpeg`} alt="Portrait of Andre van de Ven"/>
             <div className="description-container">
                 <p className="description">My name is Andre van de Ven, and I'm a 19-year-old student from New Jersey pursuing a
                     double major in biology and computer science at the University of Pennsylvania. I aspire to leverage

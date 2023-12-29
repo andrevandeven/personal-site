@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
 import About from "./routes/about";
 import Pictures from "./routes/pictures";
@@ -18,11 +18,11 @@ import { CustomCursor } from './components/cursor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <CustomCursor />
     <NavBar />
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="#/" element={<App />} />
       <Route path="about" element={<About />} />
       <Route path="pictures" element={<Pictures />} />
       <Route path="pictures/turtles" element={<Turtles />} />
@@ -33,7 +33,7 @@ root.render(
       <Route path="pictures/wide-angle" element={<Wide />} />
       <Route path="*" element={<App />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

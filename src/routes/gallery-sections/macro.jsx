@@ -54,7 +54,7 @@ const Macro = () => {
             <div class="separator"></div>
             
             <h2 className="carousel-subheading">Peppermint Goby</h2>
-            <img className="individual-img" src="/goby.jpg" alt="goby"></img>
+            <img className="individual-img" src={`${process.env.PUBLIC_URL}/goby.jpg`} alt="goby"></img>
             <p className="individual-description">The peppermint goby (Coryphopterus lipernes) can often be found lying on hard coral. 
                 They can be identified by their bright blue heads and yellow bodies. They're only 
                 about 3 cm long and very skittish, so getting a good picture takes patience. To 
@@ -64,7 +64,7 @@ const Macro = () => {
             <div class="separator"></div>
 
             <h2 className="carousel-subheading">Redlip Blenny</h2>
-            <img className="individual-img" src="/redLipped.jpg" alt="blenny"></img>
+            <img className="individual-img" src={`${process.env.PUBLIC_URL}/redLipped.jpg`} alt="blenny"></img>
             <p className="individual-description">As their name describes them, 
                 red-lipped blennies (Ophioblennius atlanticus) can be identified 
                 by their pinkish-red lips. Red-lipped blennies remain stationary with 
