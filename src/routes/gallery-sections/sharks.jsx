@@ -62,7 +62,7 @@ const Sharks = () => {
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+    
             
         </div>
     );

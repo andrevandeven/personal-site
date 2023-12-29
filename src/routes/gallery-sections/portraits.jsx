@@ -37,6 +37,22 @@ const FishPortraits = () => {
         '/Grunt-2.jpg',
     ];
 
+    const porcupineImages = [
+        '/porcupine.jpg',
+        '/porcupine-1.jpg',
+        '/porcupine-2.jpg',
+    ];
+
+    const chestnutImages = [
+        '/chestnut.jpg',
+        '/chestnut-1.jpg',
+    ];
+
+    const trumpetfishImages = [
+        '/trumpetfish.jpg',
+        '/trumpetfish-1.jpg',
+    ];
+
     return (
         <div className="container">
             <div className="title-container">
@@ -85,19 +101,38 @@ const FishPortraits = () => {
                     description=""
                 />
             </div>
-
             <div class="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Bluestriped Grunt" images={gruntImages}
                     description=""
                 />
             </div>
-            
-            <p>Porcupine fish</p>
-            <p>Chain moray</p>
-            <p>Chestnut moray</p>
-            <p>parrotfish</p>
-            <p>trumpetfish</p>
+
+            <div class="separator"></div>
+            <div className="carousel-container">
+                <ImageCarousel title="Porcupine Fish" images={porcupineImages}
+                    description=""
+                />
+            </div>
+
+            <div class="separator"></div>
+            <h2 className="carousel-subheading">Chain Moray Eel</h2>
+            <img className="individual-img" src="/chain-1.jpg" alt="chain"></img>
+            <p className="individual-description"> </p>
+
+            <div class="separator"></div>
+            <div className="carousel-container">
+                <ImageCarousel title="Chestnut Moray Eel" images={chestnutImages}
+                    description=""
+                />
+            </div>
+
+            <div class="separator"></div>
+            <div className="carousel-container">
+                <ImageCarousel title="Trumpetfish" images={trumpetfishImages}
+                    description=""
+                />
+            </div>
         </div>
     );
 }

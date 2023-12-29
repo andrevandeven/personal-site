@@ -16,6 +16,12 @@ const Camo = () => {
         '/Frogfish.jpg',
     ];
 
+    const scorpionfishImages = [
+        '/scorpionfish.jpg',
+        '/scorpionfish-1.jpg',
+        '/scorpionfish.jpeg',
+    ];
+
     return (
         <div className="container">
             <div className="title-container">
@@ -55,8 +61,12 @@ const Camo = () => {
             <div class="separator"></div>
 
             <div className="carousel-container">
-                <ImageCarousel title="Scorpionfish" images={frogfishImages}
-                    description=""
+                <ImageCarousel title="Scorpionfish" images={scorpionfishImages}
+                    description="At first, the spotted scorpionfish (Scorpaena plumieri) might look like a rock, but unlike a rock, 
+                    this fish has over 15 venomous spines that can ruin a day at the beach in an instant. The scorpionfish does 
+                    little swimming, as it instead lies in wait for its unsuspecting victims to get close. Once in range, 
+                    the scorpionfish will open its mouth very wide (as shown in the third picture) and swallow its prey in one 
+                    gulp. Scorpionfish are fairly common, and I have seen up to seven of them sitting on the same boulder. "
                 />
             </div>
 

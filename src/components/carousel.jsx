@@ -20,7 +20,7 @@ const ImageCarousel = ({ title, images, description }) => {
                     ))}
                 </Carousel>
             
-            <p>{description}</p>
+            <p className="description">{description}</p>
         </div>
     );
 };

@@ -35,10 +35,10 @@ const Pictures = () => (
                 <img src="/Octopus.jpg" alt="octopus"></img>
                 <h2 className="section-title">Masters of Camouflage</h2>
             </Link>
-            <div className="gallery-link">
+            <Link to="/pictures/wide-angle" className="gallery-link">
                 <img src="/salt-pier.jpg" alt="salt-pier"></img>
                 <h2 className="section-title">Wide Angle</h2>
-            </div>
+            </Link>
         </div>
     </div>
 );

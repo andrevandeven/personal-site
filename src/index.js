@@ -12,6 +12,7 @@ import FishPortraits from "./routes/gallery-sections/portraits";
 import Macro from "./routes/gallery-sections/macro.jsx";
 import Sharks from "./routes/gallery-sections/sharks.jsx";
 import Camo from "./routes/gallery-sections/camo.jsx";
+import Wide from "./routes/gallery-sections/wide.jsx";
 import { CustomCursor } from './components/cursor';
 
 
@@ -29,6 +30,7 @@ root.render(
       <Route path="pictures/macro" element={<Macro />} />
       <Route path="pictures/sharks&rays" element={<Sharks />} />
       <Route path="pictures/masters-of-camouflage" element={<Camo />} />
+      <Route path="pictures/wide-angle" element={<Wide />} />
       <Route path="*" element={<App />} />
     </Routes>
   </BrowserRouter>

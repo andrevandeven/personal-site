@@ -25,6 +25,11 @@ const Macro = () => {
         '/flamingoTongue-1.jpg',
         '/flamingoTongue.jpg',
     ];
+
+    const threespotImages = [
+        '/threespot.jpg',
+        '/threespot-1.jpg',
+    ];
    
     return (
         <div className="container">
@@ -87,9 +92,16 @@ const Macro = () => {
             </div>
             <div class="separator"></div>
 
+            <div className="carousel-container">
+                <ImageCarousel title="Juvenile Threespot Damselfish" images={threespotImages}
+                    description=""
+                />
+            </div>
+            <div class="separator"></div>
+
             
             
-            <p> spinyhead blenny, christmas tree worm, black and white stripped fish, yellow damselfish, conch, cleaning shrimp</p>
+            <p> spinyhead blenny, christmas tree worm, black and white stripped fish, conch, cleaning shrimp</p>
             
         </div>
     );
