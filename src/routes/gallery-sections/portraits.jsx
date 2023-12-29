@@ -5,9 +5,9 @@ import ImageCarousel from '../../components/carousel.jsx';
 const FishPortraits = () => {
     const lizardfishImages = [
         '/Lizardfish.jpg',
-        '/Lizardfish-1.jpg',
-        '/Lizardfish-3.jpg',
-        '/Lizardfish-2.jpg',
+        '/LizardFish-1.jpg',
+        '/LizardFish-3.jpg',
+        '/LizardFish-2.jpg',
     ];
 
     const morayImages = [
@@ -34,7 +34,7 @@ const FishPortraits = () => {
     const gruntImages = [
         '/Grunt.jpg',
         '/Grunt-1.jpg',
-        '/Grunt-2.jpg',
+        '/grunt-2.jpg',
     ];
 
     const porcupineImages = [

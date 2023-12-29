@@ -10,10 +10,10 @@ const Camo = () => {
     ];
 
     const frogfishImages = [
-        '/Frogfish-4.jpg',
-        '/Frogfish-2.jpg',
-        '/Frogfish-3.jpg',
-        '/Frogfish.jpg',
+        '/Frogfish-4.JPG',
+        '/Frogfish-2.JPG',
+        '/Frogfish-3.JPG',
+        '/Frogfish.JPG',
     ];
 
     const scorpionfishImages = [
