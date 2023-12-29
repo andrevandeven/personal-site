@@ -15,9 +15,9 @@ const Sharks = () => {
     ];
 
     const stingRayImages = [
-        "/stingRay-2.jpg",
-        "/stingRay.jpg",
-        "/stingRay-1.jpg",
+        "/stingray-2.jpg",
+        "/stingray.jpg",
+        "/stingray-1.jpg",
     ];
 
     

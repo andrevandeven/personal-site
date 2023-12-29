@@ -28,11 +28,11 @@ const Pictures = () => (
                 <h2 className="section-title">Macro</h2>
             </Link>
             <Link to="/pictures/sharks&rays" className="gallery-link">
-                <img src={`${process.env.PUBLIC_URL}/shark-photo.jpg`} alt="shark"></img>
+                <img src={`${process.env.PUBLIC_URL}/Shark-photo.jpg`} alt="shark"></img>
                 <h2 className="section-title">Sharks & Rays</h2>
             </Link>
             <Link to="/pictures/masters-of-camouflage" className="gallery-link">
-                <img src={`${process.env.PUBLIC_URL}/Octopus.jpg`} alt="octopus"></img>
+                <img src={`${process.env.PUBLIC_URL}/octopus.jpg`} alt="octopus"></img>
                 <h2 className="section-title">Masters of Camouflage</h2>
             </Link>
             <Link to="/pictures/wide-angle" className="gallery-link">
