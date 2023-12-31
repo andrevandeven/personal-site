@@ -26,9 +26,9 @@ const Turtles = () => {
     return (
         <div className="container">
             <div className="title-container">
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
                 <h1 className="title">Turtles</h1>
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
             </div>
             <div className = "carousel-container">
                 <ImageCarousel title="Hawksbill Sea Turtles of Bonaire" images={hawksbillImages}
@@ -39,7 +39,7 @@ const Turtles = () => {
                         minutes, occasionally taking trips to the surface to breathe."
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Green Sea Turtles of Bonaire" images={greenTurtlesImages}
                     description="The green sea turtle (Chelonia mydas) is often found grazing on seagrass. 
@@ -47,7 +47,7 @@ const Turtles = () => {
                     After diving the salt pier, it's almost certain that you will encounter at least one of these turtles if you exit from the north."
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Green Sea Turtles of Turks and Caicos" images={greenTurtlesTurksImages}
                     description="The turtles pictured above were found feeding on seagrass off the shores of Providenciales. 

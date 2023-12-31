@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from './components/navbar';
+import { ScrollToTop } from './components/ScrollToTop';
 import About from "./routes/about";
 import Pictures from "./routes/pictures";
 import Turtles from "./routes/gallery-sections/turtles";
@@ -21,6 +22,7 @@ root.render(
   <HashRouter>
     <CustomCursor />
     <NavBar />
+    <ScrollToTop />
     <Routes>
       <Route path="#/" element={<App />} />
       <Route path="about" element={<About />} />

@@ -25,9 +25,9 @@ const Sharks = () => {
     return (
         <div className="container">
             <div className="title-container">
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
                 <h1 className="title">Sharks & Rays</h1>
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
             </div>
             <div className="carousel-container">
                 <ImageCarousel title="Caribbean Reef Shark" images={sharkImages}
@@ -43,7 +43,7 @@ const Sharks = () => {
                     the media, but in reality, they are generally harmless in most of their encounters with humans."
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Spotted Eagle Ray" images={eagleRayImages}
@@ -55,7 +55,7 @@ const Sharks = () => {
                     next destination. "
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Southern Stingray" images={stingRayImages}

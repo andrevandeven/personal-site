@@ -34,9 +34,9 @@ const Macro = () => {
     return (
         <div className="container">
             <div className="title-container">
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
                 <h1 className="title">Macro</h1>
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
             </div>
 
             <div className="carousel-container">
@@ -44,14 +44,14 @@ const Macro = () => {
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Fairy Basslet" images={bassletImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             
             <h2 className="carousel-subheading">Peppermint Goby</h2>
             <img className="individual-img" src={`${process.env.PUBLIC_URL}/goby.jpg`} alt="goby"></img>
@@ -61,7 +61,7 @@ const Macro = () => {
                 get this picture, I swam in slowly, inching forward so that the goby became habituated 
                 to my presence. Once my camera was a in inch or so away from its head, I was able to 
                 take the photo. </p>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <h2 className="carousel-subheading">Redlip Blenny</h2>
             <img className="individual-img" src={`${process.env.PUBLIC_URL}/redLipped.jpg`} alt="blenny"></img>
@@ -70,14 +70,14 @@ const Macro = () => {
                 by their pinkish-red lips. Red-lipped blennies remain stationary with 
                 occasional hops from coral to coral. They often lie in the open, but they 
                 are skittish, making them difficult to photograph.</p>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Spotted Cleaner Shrimp" images={shrimpImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Flamingo Tongue" images={flamingoTongueImages}
@@ -90,14 +90,14 @@ const Macro = () => {
                         the flamingo tongue."
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Juvenile Threespot Damselfish" images={threespotImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             
             

@@ -56,16 +56,16 @@ const FishPortraits = () => {
     return (
         <div className="container">
             <div className="title-container">
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
                 <h1 className="title">Fish Portraits</h1>
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
             </div>
             <div className="carousel-container">
                 <ImageCarousel title="Lizardfish" images={lizardfishImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Goldentail Moray Eel" images={morayImages}
                     description="The goldentail moray eel (Gymnothorax miliaris) is often found in crevasses with 
@@ -77,7 +77,7 @@ const FishPortraits = () => {
                         are reminiscent of the Eye of Sauron from The Lord of the Rings."
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Lionfish" images={lionfishImages}
                     description="The red lionfish (Pterois volitans) is native to the waters of the Indian and Pacific Oceans 
@@ -89,45 +89,45 @@ const FishPortraits = () => {
                     afraid of humans (they have no natural predators in the Atlantic), so you can get very close without them swimming away. "
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Barracuda" images={barracudaImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="French Angelfish" images={angelfishImages}
                     description=""
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Bluestriped Grunt" images={gruntImages}
                     description=""
                 />
             </div>
 
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Porcupine Fish" images={porcupineImages}
                     description=""
                 />
             </div>
 
-            <div class="separator"></div>
+            <div className="separator"></div>
             <h2 className="carousel-subheading">Chain Moray Eel</h2>
             <img className="individual-img" src={`${process.env.PUBLIC_URL}/chain-1.jpg`} alt="chain"></img>
             <p className="individual-description"> </p>
 
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Chestnut Moray Eel" images={chestnutImages}
                     description=""
                 />
             </div>
 
-            <div class="separator"></div>
+            <div className="separator"></div>
             <div className="carousel-container">
                 <ImageCarousel title="Trumpetfish" images={trumpetfishImages}
                     description=""

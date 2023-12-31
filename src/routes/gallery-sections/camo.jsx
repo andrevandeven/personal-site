@@ -25,9 +25,9 @@ const Camo = () => {
     return (
         <div className="container">
             <div className="title-container">
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
                 <h1 className="title">Masters of Camouflage</h1>
-                <div class="title-lines"></div>
+                <div className="title-lines"></div>
             </div>
 
             <div className="carousel-container">
@@ -42,7 +42,7 @@ const Camo = () => {
                     left tentacle, presumably the remnants of its last meal. "
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Frogfish" images={frogfishImages}
@@ -58,7 +58,7 @@ const Camo = () => {
                     sitting next to each other, and I was able to get a few shots of both of them in the same frame. "
                 />
             </div>
-            <div class="separator"></div>
+            <div className="separator"></div>
 
             <div className="carousel-container">
                 <ImageCarousel title="Scorpionfish" images={scorpionfishImages}
