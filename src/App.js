@@ -73,7 +73,7 @@ export default function App() {
         <nav className="navigation-bar">
           <a href="https://github.com/andrevandeven" target="_blank" rel="noopener noreferrer">
             <div className='projects-link'>
-              <p>Projects</p>
+              <p>Github</p>
             </div>
           </a>
           <Link to="/pictures">
