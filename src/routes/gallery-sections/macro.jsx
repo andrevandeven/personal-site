@@ -101,7 +101,7 @@ const Macro = () => {
 
             
             
-            <p> spinyhead blenny, christmas tree worm, black and white stripped fish, conch, cleaning shrimp</p>
+            {/* spinyhead blenny, christmas tree worm, black and white stripped fish, conch, cleaning shrimp */}
             
         </div>
     );

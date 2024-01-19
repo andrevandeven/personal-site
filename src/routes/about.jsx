@@ -6,9 +6,9 @@ export default function About() {
             <h1 className="title" >About Me</h1>
             <img className="portrait" src={`${process.env.PUBLIC_URL}/portrait.jpeg`} alt="Portrait of Andre van de Ven"/>
             <div className="description-container">
-                <p className="description">My name is Andre van de Ven, and I'm a 19-year-old student from New Jersey pursuing a
-                    double major in biology and computer science at the University of Pennsylvania. I aspire to leverage
-                    AI and machine learning tools to create change in the life science and healthcare industries.
+                <p className="description">My name is Andre van de Ven, and I'm a dual degree student at the University of 
+                    Pennsylvania studying computational biology and business at Wharton. I aspire to leverage
+                    AI and machine learning tools to solve problems in business and healthcare.
                 </p>
 
                 <p className="description">Underwater wildlife photography is another passion of mine. This website contains some of my favorite photos that I have taken.

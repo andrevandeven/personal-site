@@ -64,9 +64,9 @@ export default function App() {
           <span>&nbsp;and&nbsp;</span>
           <span className="UWphotographer">underwater photographer</span>
           <span>&nbsp;studying </span>
-          <span className="compBio">biology</span>
+          <span className="compBio">computational biology</span>
           <span>&nbsp;and</span>
-          <span className="compBio">&nbsp;computer science</span>
+          <span className="compBio">&nbsp;business</span>
           <span>&nbsp;at the University of Pennsylvania.</span>
         </span>
 
